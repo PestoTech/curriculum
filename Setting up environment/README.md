@@ -116,9 +116,9 @@
 
   - [yarn](https://yarnpkg.com/lang/en/)
 
-  - npm(along with npx)
+  - [npm](https://docs.npmjs.com/getting-started/what-is-npm)(along with [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b))
 
-  - Homebrew (macOS)
+  - #### [Homebrew (macOS)
 
     - Homebrew is the go-to package manager for MacOS. It makes it super easy to install and update all of your different development tools.
 
@@ -140,10 +140,10 @@
 
 - ## Environment Variables and uses
 
-  - env
+  - [env](https://medium.freecodecamp.org/heres-how-you-can-actually-use-node-environment-variables-8fdf98f53a0a)
+
+  - [dotenv](https://github.com/motdotla/dotenv)
 
   - How to set cross platform ENVs
 
-  - crossenv
-  
-  - dotenv
+    - [crossenv](https://github.com/kentcdodds/cross-env)
