@@ -1,18 +1,18 @@
-# Curriculum
+# **Curriculum**
 
-**Introduction**
+# Introduction
 
 These are the essential skills that every engineer attending the Pesto Bootcamp must be familiar with. We have built up this resource library by creating our own internal content and by curating our favorite blog posts, documentation sites and courses from around the web.
 
 Here, you have access to resources which will help you understand the general programming concepts as well as the specifics of various technologies in depth.
 
-# **Getting Started**
+# Getting Started
 
 > Each section should be completed in order from top to bottom because some of the skills build on each other.
 
 ## Clean Code
 
-It is really a very simple concept but one that sparked more debates and controversies than anything else in Computer Science. If you have ever thought about Tabs versus Spaces, snake_case versus CamelCase, verbNoun variable nomenclature or nounVerb, using is with booleans, or right level of abstraction then you know what it means. However, it is just the beginning. It's there in mathematics too. Mathematicians G.H Hardy and Betrand Russell use the term ‘elegance’ and ‘rigour’ for mathematical beauty. The concept is so simple that even a child can easily understand it. Heck, the term itself ‘Clean Code’ is sufficiently descriptive and intuitively sensible, yet to put it into practice is as hard as composing a sonata, writing an opus, sculpting David and painting [The Last Supper](https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo_da_Vinci)). So if you are new to this concept, begin with the following links to get a gist of it. You'll get an idea about the same and form an opinion.
+It is really a very simple concept but one that sparked more debates and controversies than anything else in Computer Science. If you have ever thought about Tabs versus Spaces, snake_case versus CamelCase, verbNoun variable nomenclature or nounVerb, using is with booleans, or right level of abstraction then you know what it means. However, it is just the beginning. It's there in mathematics too. Mathematicians G.H Hardy and Betrand Russell use the term `elegance` and `rigour` for mathematical beauty. The term itself `Clean Code` is sufficiently descriptive and intuitively sensible, yet to put it into practice is as hard as composing a sonata, writing an opus, sculpting David and painting [The Last Supper](https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo_da_Vinci)). So if you are new to this concept, begin with the following links to get a gist of it. You'll get an idea about the same and form an opinion.
 
 In short Clean Code is -
 
@@ -23,206 +23,234 @@ In short Clean Code is -
 
 Also, **if you always remember that code is written to read (by humans)** and not *just* to be executed, you'll mostly be on the right track.
 
-Resources -
 
-- Articles
+- #### Articles
   - [What is Clean Code and why should you care?](http://cvuorinen.net/2014/04/what-is-clean-code-and-why-should-you-care/)
+
   - [Steps to better code](https://medium.com/@isaaclyman/steps-to-better-code-e6c3cce0c7f9)
+
   - [Clean code because it’s fun](https://medium.com/@adamzerner/clean-code-because-its-fun-71e45662a944)
+
   - [Keeping your code clean](https://codeburst.io/keeping-your-code-clean-d30bcffd1a10)
-- Books [Can be read independently]
+
+- #### Books
   - ***Structure and Interpretation of Computer Programs*** by Hal Abelson, Gerald Jay Sussman
-  - ***Clean Code***, ***Agile Software Development*** and ***Clean Architecture*** __ **** by R C Martin. (Clean Code is highly recommended)
+
+  - ***Clean Code***, ***Agile Software Development*** and ***Clean Architecture*** by R C Martin.
+
   - ***Code Complete*** (2nd Edition) by Steve McConnell
+
   - ***Programming Pearls*** by Jon Bentley
-  - ***Design Patterns*** by the Gang of Four (one of the best books for program architecture) [***Available in the Pesto Library***]
+  
+  - ***Design Patterns*** by the Gang of Four (one of the best books for program architecture)
 
 ## Resources:
 
-- Setting up Development, staging, and production environment.
-- Editor, Shell, OS, Version Managers, ENV, Package Managers.
-  - Z Shell
-    - Z Shell (aka zsh) is a drop-in replacement for your default bash shell. It does everything bash can do and more. Some nice improvements over bash are improved autocomplete, syntax highlighting and plugins via Oh My Zsh.
-    - [Install it and Oh My Zsh by following the instructions here.](https://github.com/robbyrussell/oh-my-zsh)
-    - [Few pro tip zsh features that you might not know about](https://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692).
-    - Extensions
-      - Autocomplete
-      - git
-      - jump
-  - Editor
-    - VSCode
+# Setting up environment ([details](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#setting-up-environment))
 
-      > A software engineer's text editor of choice is somewhat just a personal preference. There isn't necessarily one right answer. However, to standardize our training and make it easier to collaborate, everyone is required to use VSCode.
+- #### [Z Shell](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#z-shell)
+- #### [Editor](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#editor)
 
-      Visual Studio Code (VSCode) is our current text editor of choice. It is lightweight and easily extendable. It is built and maintained by Microsoft so it has really good native TypeScript support and is updated every month.
+  - [VSCode](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#vscode)
 
-      [Download it here](https://code.visualstudio.com/)
+  - [Basic Vim](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#basic-vim-for-git-rebase-and-in-terminal-editing) (for Git Rebase and in-terminal editing)
+- #### [Terminal and Commands](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#terminal-and-commands)
 
-      Install the following extensions from VSCode's extension marketplace. As with anything you install, you should take the time to read the documentation so that you know why each extension is useful.
+- #### [Version Managers](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#version-managers)
 
-      - Extensions
-        - [Top JavaScript VSCode Extensions for Faster Development](https://codeburst.io/top-javascript-vscode-extensions-for-faster-development-c687c39596f5)
-        - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)/ [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-        - [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
-        - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-        - [GraphQL](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
-        - [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color)
-        - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-        - [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
-        - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-      - Resources
-        - [Visual Studio Code Can Do That?](http://vscodecandothat.com/)
-        - [VSCode Docs](https://code.visualstudio.com/docs) [ Read the **Getting Started** and **Node/JS** sections ]
-        - [VS Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
-        - [How to debug ES6 NodeJS with VSCode](https://medium.com/@katopz/how-to-debug-es6-nodejs-with-vscode-8d00bd6c4f94)
-        - [VS Code Extensions using CodeLens](https://medium.com/@waderyan_/vs-code-extensions-using-codelens-f0f452b1dd8b)
-        - [Multiple Fonts: Alternative to Operator Mono in VSCode](https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0)
-        - [Live edit and debug your React apps directly from VS Code — without leaving the editor](https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f)
-        - [Configure ESLint, Prettier, and Flow in VS Code for React Development](https://hackernoon.com/configure-eslint-prettier-and-flow-in-vs-code-for-react-development-c9d95db07213)
-        - [Debugging React Like a Champ with VSCode](https://hackernoon.com/debugging-react-like-a-champ-with-vscode-66281760037)
-        - [VSCode for React Native](https://medium.com/react-native-training/vscode-for-react-native-526ec4a368ce)
-        - [New in VS Code: Inline Change Review](https://medium.com/fhinkel/new-in-vs-code-inline-change-review-d43df04ea264)
-    - Basic Vim (for Git Rebase and in-terminal editing)
-      - Command Mode and Insert Mode
-      - !
-      - wq
-      - dd
-      - dw
-      - %s
-      - Explore these links if you want to know and learn more about vim
-        - [Learning Vim: What I Wish I Knew](https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85)
-        - [Vim Adventures](https://vim-adventures.com/)
-        - [openvim](http://www.openvim.com/tutorial.html)
-      - [Here's](https://vim.rtorr.com/) a small cheat sheet for quick references
-  - Terminal and Commands
-    - iTerm2 with Oh My ZSH with extensions and a good theme (macOS)
-    - curl
-    - grep command
-    - ls/ll
-    - ps
-  - Version Managers
-    - Node Version Manager
+  - Node Version Manager
 
-      Node Version Manager (nvm for short) is used for managing the different versions of node and npm installed on your machine. It allows you to easily switch between versions so that you can always make sure you are using the same version as everyone else for every project. By keeping the version consistent across your local development environment, your teammates' development environment and the servers, you get consistent results and don't run into version mismatch related bugs.
+- #### [Package Managers](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#package-managers)
 
-      [Install nvm by following the instructions here.](https://github.com/creationix/nvm)
+  - [yarn](https://yarnpkg.com/lang/en/)
 
-  - Package Managers
-    - [yarn](https://yarnpkg.com/lang/en/)
-    - npm(along with npx)
-    - Homebrew (macOS)
-      - Homebrew is the go-to package manager for MacOS. It makes it super easy to install and update all of your different development tools.
-      - [Install Homebrew by following the instructions here.](https://brew.sh/)
-      - To see how awesome Homebrew is, go ahead and install MongoDB on your system.
-        - [Here are the instructions to do it manually.](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-manually)
-        - [Here is how you install it with Homebrew.](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew)
+  - [npm](https://docs.npmjs.com/getting-started/what-is-npm)(along with [npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b))
 
-            brew install mongodb
+  - Homebrew (macOS)
+- #### [Environment Variables and uses](https://github.com/PestoTech/curriculum/tree/master/Setting%20up%20environment#environment-variables-and-uses)
 
-        Another super useful homebrew package is hub by github. It allows you to create pull requests from the command line using:
+- # Version Control
+  - ### [Centralized and Distributed](https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs)
 
-            git pull-request
-
-        Download and install is via homebrew [here](https://hub.github.com/).
-
-  - Environment Variables and its uses
-    - env
-    - How to set cross platform ENVs
-    - crossenv
-    - dotenv
-- Version Control
-  - [Centralized and Distributed](https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs)
     - What are the advantages of Distributed over centralized.
+
     - Why distributed is preferred versus Centralized.
-  - Git and GitHub ( Know the difference )
+
+  - ### Git and GitHub ( Know the difference )
+
     - Various other git services providers
-  - Git
-    - Repositories (forking and cloning and the difference between them)
+
+  - ### Git
+
+    - #### Repositories (forking and cloning and the difference between them)
+
       - How to create
+
       - What are README files
+
       - How to read other people's repositories
-    - gitignore files
+
+    - #### gitignore files
+
       - Why it is required?
+
       - What are important things to put in it?
+
         - Logs
+
         - Compiled Binaries
-        - Covererage Reports
+
+        - Coverage Reports
+
         - Intermediate Files
-    - Commits
+
+    - #### Commits
+
       - What is a commit
+
       - Why commit often and in a logically coherent units
+
       - Difference between staging area, index area, and, working directory commit
+
       - Conventions to follow during a commit
+
       - Searching through a commit
-    - Branching and Merging
+
+    - #### Branching and Merging
+
       - Branch as an abstraction unit
+
       - Why branching is required?
+
       - How it handles features and allows multiple people to work on the same repo without collisions.
+
       - Checkout a branch
+
       - Conventions to follow for a branch name
+
       - Why `master`  exists
+
       - HEAD and branch references
-    - [Reset](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
+
+    - #### [Reset](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
+
       - What is a reset?
+
       - Difference between hard, soft, and mixed reset.
+
       - When to do reset?
-    - [S]()[tashing](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a)
+
+    - #### [Stashing](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a)
+
       - Why stashing is required?
+
       - How to keep stashes of files
+
       - How to pop them back
-    - Issues and Pull requests (Github)
+
+    - #### Issues and Pull requests (Github)
+
       - What is an issue?
+
       - Atomic PRs
+
       - How to create an issue
+
       - How to assign it to a member?
+
       - How to create a Pull Request referencing that issue
+
       - How to review a PR
 
-    - Git commands ( with common flags )
+    - #### Git commands ( with common flags )
+    
       - init
+
       - clone
+
       - add
+
       - commit
+
       - remote
+    
       - pull ( vs fetch and its difference)
+    
       - push
+    
       - merge
+    
       - branch
+    
       - checkout
+    
       - status
+    
       - diff
+    
       - log
-    - Git Rebase
+    
+    - #### Git Rebase
+
       - Why Rebase (vs merge)
+
       - Interactive rebase options
+
       - Rebase [ Udacity's [GitHub and Collaboration](https://in.udacity.com/course/github-collaboration--ud456) Course by **Richard Kalehoff** ]
+
       - [Git team workflows: Merge or Rebase](https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase)
+
       - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-      - [How to r](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)[ebase and update]() [a pull request](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)
+
+      - [How to rebase and update a pull request](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)
+
       - [Rebase and merge pull requests](https://github.com/blog/2243-rebase-and-merge-pull-requests)
-    - [Commit message style guides](https://chris.beams.io/posts/git-commit/)
+
+    - #### [Commit message style guides](https://chris.beams.io/posts/git-commit/)
+
       - [Udacity Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
-    - [Atomic commits](https://www.freshconsulting.com/atomic-commits/)
-  - Resources
-    - [Git Cheat Sheet](https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf)
-    - [Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-    - [Git Basics](https://medium.com/designing-atlassian/learn-to-love-git-part-one-the-basics-90429f456ace)
-    - [Try Git](https://try.github.io/) tutorial
-    - [gitignore](https://help.github.com/articles/ignoring-files/)
-    - Understand branching and merge
-      - [Link #1](https://www.atlassian.com/git/tutorials/using-branches)
-      - [Link #2](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+
+    - #### [Atomic commits](https://www.freshconsulting.com/atomic-commits/)
+
+  - ### Additional Resources
+    - #### [Git Cheat Sheet](https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf)
+
+    - #### [Version Control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+
+    - #### [Git Basics](https://medium.com/designing-atlassian/learn-to-love-git-part-one-the-basics-90429f456ace)
+
+    - #### [Try Git](https://try.github.io/) tutorial
+
+    - #### [gitignore](https://help.github.com/articles/ignoring-files/)
+
+    - #### Understand branching and merge
+
+      - [Using Branches](https://www.atlassian.com/git/tutorials/using-branches)
+
+      - [Creating new branch and managing branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+
       - [Git branch](https://learngitbranching.js.org/) tutorial
-    - [Github issues](https://guides.github.com/features/issues/) and [pull Requests](https://yangsu.github.io/pull-request-tutorial/)
-    - [Git commands](https://medium.freecodecamp.org/git-cheat-sheet-and-best-practices-c6ce5321f52)
-    - MOOC Courses
+
+    - #### [Github issues](https://guides.github.com/features/issues/) and [pull Requests](https://yangsu.github.io/pull-request-tutorial/)
+    
+    - #### [Git commands](https://medium.freecodecamp.org/git-cheat-sheet-and-best-practices-c6ce5321f52)
+
+    - #### MOOC Courses
+      
       - Udacity's Version Control with Git [ [Link](https://in.udacity.com/course/version-control-with-git--ud123) ]
+
       - Udacity's How to use Git and Github [ [Link](https://in.udacity.com/course/how-to-use-git-and-github--ud775) ]
+
       - Egghead's [Practical Git](https://egghead.io/courses/practical-git-for-everyday-professional-use)
+
     - [http://ohshitgit.com/](http://ohshitgit.com/)
-  - **Extra** References
+
+  - #### Extra References
+
     - [Awesome Git](https://github.com/dictcp/awesome-git) - A list of curated resources about git and associated technologies.
+
     - [Pro Git](https://git-scm.com/book) - free Git book (CC BY-NC-SA 3.0) - A comprehensive reference on git and its internals.
+    
 - Javascript
   - ES5
     - Basic Language Features
