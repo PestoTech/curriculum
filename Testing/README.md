@@ -1,9 +1,9 @@
 # Testing
-- TDD
+- ## TDD
 
   > Something that is untested is broken.
 
-  # Understand
+  ### Understand
 
   - Why testing is required?
 
@@ -11,7 +11,7 @@
 
   - Black box and White Box testing
 
-  - Testing Levels
+  - #### Testing Levels
     
     - Unit Testing
     
@@ -27,13 +27,7 @@
 
   - Code Coverage Reports
 
-  # Resources
-
-  - Videos
-
-    - [Test React applications using Enzyme & Jest](https://www.youtube.com/watch?v=8Ww2QBVIw0I)
-
-  ## Testing Overview
+  ### Testing Overview
 
   Software testing is one of the key parts of developing any application. Tests are where you write code to test your code. This helps prevent bugs and promotes cleaner code. It is also what allows us to use continuous deployment systems to deploy code confidently. With good test coverage, you no longer have to go through any manually click around to test your changes every time you push new code.
 
@@ -47,7 +41,7 @@
 
   - [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
 
-  ## Frontend Testing
+  ### Frontend Testing
 
   - [Unit Testing Front-End](https://medium.com/front-end-hacking/unit-testing-front-end-38b9bf1de079)
 
@@ -59,7 +53,7 @@
 
   - [A Skeptics Guide to Frontend Testing](https://codeburst.io/a-skeptics-guide-to-frontend-testing-part-1-5de4806ad300) [Part 1 to 3]
 
-  ## Unit Tests
+  ### Unit Tests
 
   Good unit tests should read like a set of instructions for the tested piece of code. A reader should be able to read through the tests and know immediately what the tested code is supposed to do, without having to look at the code itself.
 
@@ -69,13 +63,13 @@
 
   - [5 Questions Every Unit Test Must Answer](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 
-  ## Test Driven Development
+  ### Test Driven Development
 
   - [TDD the RITE Way](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
   
   - [Learn Test Driven Development](https://github.com/dwyl/learn-tdd) [Extensive Resource]
 
-  ## Testing and TDD in JavaScript
+  ### Testing and TDD in JavaScript
 
   Every language has different ways to support the same principles with its own set of best-practices and common steps. Please focus on this part since most of our projects are made in JavaScript.
 
@@ -84,49 +78,61 @@
   - A Gentle Introduction To JavaScript TDD [[Part 1](https://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/), [Part 2](https://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-ajax), [Part 3](https://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-html-dom)]
 
   - [What is a Javascript Test ?](https://blog.kentcdodds.com/but-really-what-is-a-javascript-test-46fe5f3fad77)
+
   - [An Overview of JavaScript Testing in 2017](https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a)
+
   - [JavaScript unit testing frameworks: Comparing Jasmine, Mocha, AVA, Tape and Jest](https://raygun.com/blog/javascript-unit-testing-frameworks/)
+
   - Udacity's [JavaScript Testing](https://in.udacity.com/course/javascript-testing--ud549) (UD549) [MOOC]
 
-  ## Code Coverage
+  ### Code Coverage
 
   - [The Importance of Code Coverage](https://blog.cloudboost.io/the-importance-of-code-coverage-9b4d513f39b4)
 
-  # Pro Tips:
+  ## Pro Tips:
 
-  ## Test your contract
+  ### Test your contract
 
   A good test should only test it's contract with the other pieces of software that will use that piece of code. The test should NOT be testing a piece of codes implementation.
 
   If tests are designed this way, you should be able to refactor any line of code in your implementation without having to refactor your tests.
 
-  # Anti-Patterns
+  ## Anti-Patterns
 
-  ## Logic in the test assertion
+  ### Logic in the test assertion
 
   You should avoid adding logic whenever possible in the assertion part of your unit tests. This not only makes your tests harder to read but it also makes your test code more likely to have a bug, and therefore not actually test the original code properly.
 
   - [5 Common Misconceptions About TDD & Unit Tests](https://medium.com/javascript-scene/5-common-misconceptions-about-tdd-unit-tests-863d5beb3ce9)
 
-- Jest, Enzyme
-  - [Expect](https://facebook.github.io/jest/docs/en/expect.html), [it](https://facebook.github.io/jest/docs/en/api.html#testname-fn-timeout), and [matchers](https://facebook.github.io/jest/docs/en/using-matchers.html)
+- ## Jest, Enzyme
+  - #### [Expect](https://facebook.github.io/jest/docs/en/expect.html), [it](https://facebook.github.io/jest/docs/en/api.html#testname-fn-timeout), and [matchers](https://facebook.github.io/jest/docs/en/using-matchers.html)
 
-  - Unit Testing
+  - #### Unit Testing
 
-  - Snapshot Testing
+  - #### Snapshot Testing
 
     - [Snapshot testing React Components with Jest](https://hackernoon.com/snapshot-testing-react-components-with-jest-744a1e980366)
 
     - [Testing React Apps](https://facebook.github.io/jest/docs/en/tutorial-react.html)
+
     - [Testing React components with Jest and Enzyme](https://hackernoon.com/testing-react-components-with-jest-and-enzyme-41d592c174f)
+
     - [How to Snapshot Test Everything in Your Redux App With Jest](https://hackernoon.com/how-to-snapshot-test-everything-in-your-redux-app-with-jest-fde305ebedea)
+
     - [Video] [Snapshot testing - Anna Doubkova, React London 2017](https://www.youtube.com/watch?v=sCbGfi40IWk)
+    
     - [Video] [Jest Snapshots and Beyond - React Conf 2017](https://www.youtube.com/watch?v=HAuXJVI_bUs)
 
-  - E2E Testing
+  - #### E2E Testing
     - e2e or end-to-end or UI testing is a methodology used to test whether the flow of an application is performing as designed from start to finish. In simple words, it is testing of your application from the user endpoint where the whole system is a blackbox with only the UI exposed to the user.
 
     - [Why End-to-End Testing is Important for Your Team](https://medium.freecodecamp.org/why-end-to-end-testing-is-important-for-your-team-cb7eb0ec1504)
+
     - [End-to-end Tests that Don’t Suck with Puppeteer](https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/)
+
     - [Tutorial: User Interface Testing with Jest and Puppeteer](https://www.valentinog.com/blog/ui-testing-jest-puppetteer/)
+
     - [A Guide to Automating & Scraping the Web with JavaScript](https://codeburst.io/a-guide-to-automating-scraping-the-web-with-javascript-chrome-puppeteer-node-js-b18efb9e9921)
+
+    - [Test React applications using Enzyme & Jest](https://www.youtube.com/watch?v=8Ww2QBVIw0I)
