@@ -14,7 +14,7 @@
 
   The terms *parameter* and *argument* are often used interchangeably, because the context usually makes it clear what the intended meaning is. The following is a rule of thumb for distinguishing them.
 
-  - *Parameters* are used to define a function. They are also called formal parameters and formal arguments. In the following example, `param1` and `param2`are parameters:
+  - *Parameters* are used to define a function. They are also called formal parameters and formal arguments. In the following example, `param1` and `param2` are parameters:
 
         function foo(param1, param2) {...}
 
@@ -38,7 +38,7 @@
         var add = function (x, y) { return x + y };
         console.log(add(2, 3)); // 5
 
-    The preceding code assigned the result of a function expression to the variable `add`and called it via that variable. The value produced by a function expression can be assigned to a variable (as shown in the example), passed as an argument to another function, and more. Because normal function expressions don’t have a name, they are also called *anonymous function expressions*.
+    The preceding code assigned the result of a function expression to the variable `add` and called it via that variable. The value produced by a function expression can be assigned to a variable (as shown in the example), passed as an argument to another function, and more. Because normal function expressions don’t have a name, they are also called *anonymous function expressions*.
 
     #### Named function expressions
 
@@ -105,7 +105,7 @@
 
     - [Lexical Scope](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch2.md)
 
-- ## closures
+- ## Closures
 
   - [What’s a JavaScript closure](https://medium.freecodecamp.org/whats-a-javascript-closure-in-plain-english-please-6a1fc1d2ff1c)
 
@@ -113,5 +113,5 @@
 
   - Why it's required in JS
     - [In-depth explanation of closure in YDKJS](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md)
-    
+
   - [What are first class functions](https://hackernoon.com/javascript-and-functional-programming-pt-2-first-class-functions-4437a1aec217)
