@@ -313,7 +313,7 @@ Also, **if you always remember that code is written to read (by humans)** and no
 
       - #### Statements
       
-        - Loops
+        - [Loops](https://www.scaler.com/topics/javascript/loops-in-javaScript/)
 
           - for
 
